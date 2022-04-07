@@ -33,7 +33,7 @@ while True:
     if prediction[0][0] > 0.5:
         print('졸지마! 눈 떠!!')
     elif prediction[0][1] > 0.5:
-        print('굿')
+        print('좋아, 잘하고 있어~')
 
     if cv2.waitKey(100) > 0:
         break
